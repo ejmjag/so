@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Сыни ойлау — тегін гайд | MAGIST</title>
+<style>
+:root{--bg:#070913;--ink:#f8faff;--muted:#aeb7d0;--line:#ffffff18;--violet:#7c5cff;--blue:#3b82f6;--cyan:#5ee7f7;--pink:#d86cff;--glass:#ffffff0c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:#070913;color:var(--ink);line-height:1.6;overflow-x:hidden;background-image:radial-gradient(circle at 12% 8%,#5337c93a 0,transparent 28%),radial-gradient(circle at 90% 24%,#1769e82b 0,transparent 26%),radial-gradient(circle at 50% 90%,#b42ee51c 0,transparent 28%)}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.23;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:46px 46px;mask-image:linear-gradient(to bottom,#000,transparent 88%)}a{text-decoration:none;color:inherit}.wrap{width:min(1040px,calc(100% - 28px));margin:auto}.topbar{padding:18px 0;position:relative;z-index:20}.toprow{display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-weight:950;letter-spacing:-.05em;font-size:23px}.logo span{color:#8ca5ff}.switch{display:flex;padding:4px;background:#ffffff0d;border:1px solid var(--line);border-radius:999px;backdrop-filter:blur(18px);box-shadow:inset 0 1px #ffffff15,0 12px 40px #0005}.switch button{border:0;background:transparent;padding:9px 13px;border-radius:999px;font-weight:850;color:#aeb7d0;cursor:pointer}.switch button.active{background:#fff;color:#0b1020;box-shadow:0 5px 20px #ffffff25}.hero{padding:42px 0 45px;perspective:1200px}.hero-card{position:relative;min-height:520px;overflow:hidden;border:1px solid #ffffff1e;border-radius:38px;padding:54px;background:linear-gradient(135deg,#11152aee,#171b36d9 52%,#121a39e8);box-shadow:0 50px 120px #0009,inset 0 1px #ffffff20;isolation:isolate;transform-style:preserve-3d}.hero-card:before{content:"";position:absolute;inset:-1px;background:radial-gradient(circle at 72% 30%,#6e5cff55,transparent 24%),radial-gradient(circle at 86% 70%,#1e9cf044,transparent 25%);z-index:-2}.hero-card:after{content:"";position:absolute;width:340px;height:340px;right:-70px;top:-60px;border-radius:38%;background:linear-gradient(145deg,#8c6cff,#3157e2);box-shadow:-35px 45px 100px #635bff55,inset 18px 18px 40px #ffffff25,inset -20px -20px 45px #090d3d55;transform:rotate(24deg) translateZ(80px);animation:float 7s ease-in-out infinite;z-index:-1}.orb{position:absolute;border-radius:50%;pointer-events:none;z-index:-1;filter:saturate(1.2)}.orb.one{width:110px;height:110px;right:32%;top:70px;background:radial-gradient(circle at 32% 28%,#fff,#8d7cff 22%,#5b3de8 55%,#25105f 100%);box-shadow:0 35px 80px #725cff55;animation:float 5.5s ease-in-out infinite reverse}.orb.two{width:58px;height:58px;right:13%;bottom:54px;background:radial-gradient(circle at 30% 25%,#fff,#62e6ff 25%,#2673e8 60%,#112866);box-shadow:0 20px 55px #3b82f677;animation:float 6s ease-in-out infinite}.ring{position:absolute;width:210px;height:210px;right:20%;bottom:-85px;border:25px solid #ffffff12;border-radius:50%;transform:rotateX(65deg) rotateZ(18deg);box-shadow:0 0 70px #8b5cf633,inset 0 0 30px #ffffff18;z-index:-1}.badge{display:inline-flex;padding:8px 13px;border:1px solid #ffffff25;border-radius:999px;background:#ffffff0b;backdrop-filter:blur(14px);font-size:12px;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:#dfe5ff}h1{font-size:clamp(45px,8vw,82px);line-height:.92;letter-spacing:-.07em;margin:24px 0 20px;max-width:760px;text-shadow:0 10px 35px #0006}.hero p{font-size:17px;color:#c4cbe0;max-width:660px;margin:0}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 20px;font-weight:900;border:1px solid transparent;cursor:pointer;transition:.25s transform,.25s box-shadow}.btn:hover{transform:translateY(-3px)}.btn-white{background:linear-gradient(135deg,#fff,#dfe6ff);color:#10162c;box-shadow:0 12px 40px #9eabff33}.btn-ghost{border-color:#ffffff25;color:#fff;background:#ffffff09;backdrop-filter:blur(14px)}.section{padding:42px 0}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#8da5ff;font-weight:950}h2{font-size:clamp(31px,5vw,52px);line-height:1.04;letter-spacing:-.055em;margin:9px 0 14px}.intro{color:var(--muted);font-size:16px;max-width:760px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px;perspective:1000px}.card,.guide,.check{background:linear-gradient(145deg,#ffffff10,#ffffff06);border:1px solid #ffffff18;box-shadow:0 24px 60px #0004,inset 0 1px #ffffff16;backdrop-filter:blur(20px)}.card{border-radius:25px;padding:23px;transform:translateZ(0);transition:.3s}.card:hover{transform:translateY(-7px) rotateX(2deg);border-color:#8da5ff55}.num{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(145deg,#8a72ff,#3b67e8);color:white;font-weight:950;margin-bottom:15px;box-shadow:0 10px 28px #635bff55,inset 0 1px #ffffff66}.card h3{font-size:19px;line-height:1.2;margin:0 0 8px}.card p{margin:0;color:var(--muted);font-size:14px}.guide{border-radius:30px;padding:29px;margin-top:22px}.guide-row{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:21px 0;border-bottom:1px solid #ffffff12}.guide-row:last-child{border-bottom:0}.guide-tag{font-weight:950;color:#8da5ff}.guide-row h3{margin:0 0 6px;font-size:20px}.guide-row p{margin:0;color:var(--muted)}.example{position:relative;overflow:hidden;background:linear-gradient(145deg,#12172c,#0d1122);color:#fff;border:1px solid #ffffff1c;border-radius:30px;padding:29px;margin-top:20px;box-shadow:0 28px 75px #0006,inset 0 1px #ffffff16}.example:after{content:"";position:absolute;width:160px;height:160px;right:-80px;top:-80px;border-radius:50%;background:#745cff2c;filter:blur(3px)}.example-label{color:#9caeff;font-size:12px;font-weight:950;text-transform:uppercase;letter-spacing:.11em}.example h3{font-size:24px;line-height:1.3;margin:9px 0 17px;max-width:850px}.answer{padding:17px;border-radius:17px;background:#ffffff09;border:1px solid #ffffff16;margin-top:10px;color:#e8ebf7}.answer b{color:#b8c4ff}.note{margin-top:14px;color:#aeb7d0;font-size:14px}.midcta{margin-top:24px;background:linear-gradient(135deg,#282055,#142a59);border:1px solid #8b7cff35;border-radius:27px;padding:25px;display:flex;justify-content:space-between;align-items:center;gap:20px;box-shadow:0 25px 65px #0005,inset 0 1px #ffffff1d}.midcta h3{margin:0 0 5px;font-size:21px}.midcta p{margin:0;color:#b8c0d8}.midcta .btn{background:linear-gradient(135deg,#8b72ff,#3b82f6);color:#fff;white-space:nowrap;box-shadow:0 12px 32px #5b63ff55}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}.check{gap:12px;border-radius:20px;padding:18px;display:flex}.tick{flex:0 0 30px;height:30px;border-radius:10px;background:linear-gradient(145deg,#44e6a4,#14966a);color:#071811;display:grid;place-items:center;font-weight:950;box-shadow:0 8px 24px #20c98744}.check b{display:block;margin-bottom:3px}.check span{color:var(--muted);font-size:14px}.cta{position:relative;overflow:hidden;margin:42px 0 72px;background:linear-gradient(135deg,#5c43e9,#3157e2 55%,#7c3aed);color:#fff;border:1px solid #ffffff2b;border-radius:36px;padding:48px;text-align:center;box-shadow:0 40px 100px #4f46e545,inset 0 1px #ffffff3b}.cta:before,.cta:after{content:"";position:absolute;border-radius:50%;background:#ffffff13}.cta:before{width:250px;height:250px;left:-100px;top:-120px}.cta:after{width:180px;height:180px;right:-70px;bottom:-80px}.cta .small{font-size:12px;font-weight:950;letter-spacing:.12em;text-transform:uppercase;color:#dbe4ff}.cta h2{max-width:740px;margin:10px auto 15px}.cta p{max-width:650px;margin:0 auto;color:#e9eaff}.cta .btn{position:relative;z-index:2;margin-top:23px;background:#fff;color:#283aa7;padding:15px 25px;box-shadow:0 15px 35px #1c1c7044}.cta .micro{font-size:12px;color:#ddd6fe;margin-top:11px}.footer{text-align:center;color:#68718b;font-size:12px;padding-bottom:32px}.lang{display:none}body.kk .kk,body.ru .ru{display:block}.inline{display:none}body.kk .inline.kk,body.ru .inline.ru{display:inline}.reveal{opacity:0;transform:translateY(24px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}@keyframes float{0%,100%{transform:translateY(0) rotate(24deg)}50%{transform:translateY(18px) rotate(30deg)}}@media(max-width:720px){.hero-card{padding:32px 22px;min-height:550px;border-radius:29px}.hero-card:after{width:230px;height:230px;right:-105px;top:15px;opacity:.72}.orb.one{width:70px;height:70px;right:12%;top:145px}.ring{opacity:.6}.grid3,.checklist{grid-template-columns:1fr}.guide-row{grid-template-columns:1fr;gap:6px}.midcta{align-items:flex-start;flex-direction:column}.cta{padding:35px 21px;border-radius:29px}.section{padding:34px 0}}
+
+/* LIGHT 3D THEME */
+body{background:#f5f7ff;color:#15182a;background-image:radial-gradient(circle at 10% 5%,#dfe5ff 0,transparent 27%),radial-gradient(circle at 92% 25%,#eee5ff 0,transparent 28%),radial-gradient(circle at 50% 90%,#e4f4ff 0,transparent 30%)}
+body:before{opacity:.55;background-image:linear-gradient(#64748b0b 1px,transparent 1px),linear-gradient(90deg,#64748b0b 1px,transparent 1px)}
+.logo{color:#15182a}.logo span{color:#5d5bf5}
+.switch{background:#ffffffb8;border-color:#dfe3f0;box-shadow:inset 0 1px #fff,0 12px 35px #4d5c8a14}
+.switch button{color:#6b7280}.switch button.active{background:#171a2d;color:#fff}
+.hero-card{background:linear-gradient(135deg,#ffffffed,#f4f6ffeb 52%,#edf1ffed);color:#15182a;border-color:#ffffff;box-shadow:0 42px 100px #53618b22,inset 0 1px #fff}
+.hero-card:before{background:radial-gradient(circle at 72% 30%,#7568ff35,transparent 25%),radial-gradient(circle at 88% 70%,#3ba7f52d,transparent 26%)}
+.hero p{color:#667085}.badge{color:#4c55a8;background:#ffffff9e;border-color:#dfe4ff}
+.btn-white{background:#171a2d;color:#fff;box-shadow:0 12px 35px #34395725}.btn-ghost{color:#343957;background:#ffffff99;border-color:#d9deee}
+.card,.guide,.check{background:linear-gradient(145deg,#ffffffed,#f9faffd9);border-color:#fff;box-shadow:0 22px 55px #52608015,inset 0 1px #fff}
+.card p,.guide-row p,.check span,.intro{color:#667085}.guide-row{border-color:#e7e9f1}.guide-tag,.kicker{color:#5d5bf5}
+.example{background:linear-gradient(145deg,#ffffff,#f3f5ff);color:#171a2d;border-color:#fff;box-shadow:0 25px 65px #53618b1c,inset 0 1px #fff}
+.example:after{background:#7865ff18}.example-label{color:#635bdf}.answer{background:#f6f7ff;border-color:#e2e5f1;color:#33384f}.answer b{color:#5548d9}.note{color:#697386}
+.midcta{background:linear-gradient(135deg,#ebeaff,#e8f2ff);border-color:#d7dcff;box-shadow:0 22px 55px #5867a51a,inset 0 1px #fff}.midcta p{color:#667085}
+.check{color:#171a2d}.cta{box-shadow:0 34px 80px #4f46e52c}
+.footer{color:#8a93a7}
+
+</style>
+</head>
+<body class="kk">
+<header class="topbar">
+ <div class="wrap toprow">
+  <div class="logo">MAGIST<span>.</span></div>
+  <div class="switch">
+   <button class="active" data-lang="kk">ҚАЗ</button>
+   <button data-lang="ru">РУС</button>
+  </div>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="wrap">
+  <div class="hero-card">
+   <div class="orb one"></div><div class="orb two"></div><div class="ring"></div>
+   <div class="badge"><span class="inline kk">Тегін гайд</span><span class="inline ru">Бесплатный гайд</span></div>
+   <h1><span class="inline kk">Сыни ойлауды неден бастау керек?</span><span class="inline ru">С чего начать подготовку к критическому мышлению?</span></h1>
+   <p class="lang kk">Барлық есепті жаттаудың қажеті жоқ. Ең маңыздысы – тапсырманың түрін тану, қандай тәсіл қолдану керегін түсіну және тестте логиканы дұрыс құру.</p>
+   <p class="lang ru">Не нужно заучивать каждую задачу. Главное – научиться узнавать тип задания, понимать, какой способ решения нужен, и правильно выстраивать логику в тесте.</p>
+   <div class="hero-actions">
+    <a class="btn btn-white" href="#guide"><span class="inline kk">Гайдты оқу ↓</span><span class="inline ru">Читать гайд ↓</span></a>
+    <a class="btn btn-ghost" href="https://www.magist.online/"><span class="inline kk">MAGIST пробный тесттері</span><span class="inline ru">Пробные тесты MAGIST</span></a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="kicker">01 · START</div>
+  <h2><span class="inline kk">Дайындықты қалай құру керек?</span><span class="inline ru">Как выстроить подготовку?</span></h2>
+  <p class="intro lang kk">Сыни ойлауда тек формуланы білу жеткіліксіз. Тестте қай жерде қандай тәсіл керек екенін жылдам анықтай алу маңызды.</p>
+  <p class="intro lang ru">В критическом мышлении недостаточно просто знать формулы. Важно быстро понимать, какой подход нужен именно в конкретном задании.</p>
+  <div class="grid3">
+   <div class="card reveal"><div class="num">01</div><h3><span class="inline kk">Тапсырманың түрін таны</span><span class="inline ru">Распознай тип задания</span></h3><p><span class="inline kk">Алдымен есептің не тексеріп тұрғанын түсін.</span><span class="inline ru">Сначала пойми, что именно проверяет задача.</span></p></div>
+   <div class="card reveal"><div class="num">02</div><h3><span class="inline kk">Негізгі құралдарды біл</span><span class="inline ru">Знай базовые инструменты</span></h3><p><span class="inline kk">Қажетті формула, қатынас немесе логикалық байланысты таңда.</span><span class="inline ru">Выбери нужную формулу, отношение или логическую связь.</span></p></div>
+   <div class="card reveal"><div class="num">03</div><h3><span class="inline kk">Практикада қолдан</span><span class="inline ru">Закрепи на практике</span></h3><p><span class="inline kk">Ережені оқығаннан кейін міндетті түрде тест форматында тексер.</span><span class="inline ru">После правила обязательно проверь себя в формате теста.</span></p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="guide">
+ <div class="wrap">
+  <div class="kicker">02 · METHOD</div>
+  <h2><span class="inline kk">Есепті көргенде бірден не істеу керек?</span><span class="inline ru">Что делать сразу, когда видишь задачу?</span></h2>
+  <div class="guide reveal">
+   <div class="guide-row"><div class="guide-tag">STEP 1</div><div><h3><span class="inline kk">Сұрақты анықта</span><span class="inline ru">Определи вопрос</span></h3><p><span class="inline kk">Берілген ақпаратқа емес, ең алдымен нақты не табу керегіне қара.</span><span class="inline ru">Смотри сначала не на объём условия, а на то, что именно требуется найти.</span></p></div></div>
+   <div class="guide-row"><div class="guide-tag">STEP 2</div><div><h3><span class="inline kk">Кілт сөздерді тап</span><span class="inline ru">Найди ключевые слова</span></h3><p><span class="inline kk">Пайыз, қатынас, өзгеріс, салыстыру, уақыт, аудан сияқты сөздер шешу бағытын көрсетеді.</span><span class="inline ru">Слова вроде «процент», «отношение», «изменение», «сравнение», «время», «площадь» подсказывают направление решения.</span></p></div></div>
+   <div class="guide-row"><div class="guide-tag">STEP 3</div><div><h3><span class="inline kk">Артық ақпаратты алып таста</span><span class="inline ru">Убери лишние данные</span></h3><p><span class="inline kk">Шарттағы барлық сан міндетті түрде қолданылмайды. Сұраққа керекті мәліметті ғана қалдыр.</span><span class="inline ru">Не каждое число из условия обязательно понадобится. Оставь только данные, связанные с вопросом.</span></p></div></div>
+   <div class="guide-row"><div class="guide-tag">STEP 4</div><div><h3><span class="inline kk">Жауапты тексер</span><span class="inline ru">Проверь результат</span></h3><p><span class="inline kk">Санның шамасы, таңбасы және логикасы шартқа сәйкес келе ме – соңында міндетті түрде тексер.</span><span class="inline ru">В конце проверь: соответствует ли результат условию по величине, знаку и смыслу.</span></p></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="kicker">03 · PRACTICE</div>
+  <h2><span class="inline kk">Практикалық мысалдар</span><span class="inline ru">Практические примеры</span></h2>
+  <p class="intro lang kk">Төменде Сыни ойлауда есепке қалай қарау керегін көрсететін үш түрлі мысал берілген. Жауапты ғана емес, шешу логикасын түсінуге тырыс.</p>
+  <p class="intro lang ru">Ниже три разных примера, которые показывают сам подход к заданиям критического мышления. Важно понять не только ответ, но и ход решения.</p>
+
+  <div class="example reveal">
+   <div class="example-label"><span class="inline kk">Мысал 1 · Логика</span><span class="inline ru">Пример 1 · Логика</span></div>
+   <h3><span class="inline kk">Барлық магистранттар емтихан тапсырады. Кейбір емтихан тапсыратын адамдар ағылшын тілін оқиды. Осы ақпараттан «кейбір магистранттар ағылшын тілін оқиды» деген қорытынды міндетті түрде шыға ма?</span><span class="inline ru">Все магистранты сдают экзамен. Некоторые люди, сдающие экзамен, изучают английский. Обязательно ли отсюда следует, что некоторые магистранты изучают английский?</span></h3>
+   <div class="answer">
+    <b><span class="inline kk">Шешу жолы:</span><span class="inline ru">Решение:</span></b><br>
+    <span class="inline kk">1) Магистранттардың барлығы «емтихан тапсыратындар» тобына кіреді.<br>2) Ағылшын оқитындар да осы үлкен топтың тек бір бөлігі.<br>3) Бірақ екі кіші топтың міндетті түрде қиылысатыны айтылмаған.<br><b>Жауап: жоқ, мұндай қорытынды міндетті түрде шықпайды.</b></span>
+    <span class="inline ru">1) Все магистранты входят в группу «сдающие экзамен».<br>2) Изучающие английский — лишь часть этой большой группы.<br>3) Но в условии не сказано, что две подгруппы обязательно пересекаются.<br><b>Ответ: нет, такой вывод не является обязательным.</b></span>
+   </div>
+   <div class="note"><span class="inline kk">Тұзақ: «екеуі де бір үлкен топта» дегенді «олар міндетті түрде қиылысады» деп қабылдама.</span><span class="inline ru">Ловушка: принадлежность двух групп к одной большой группе ещё не означает, что они обязательно пересекаются.</span></div>
+  </div>
+
+  <div class="example reveal">
+   <div class="example-label"><span class="inline kk">Мысал 2 · Формула және пайыз</span><span class="inline ru">Пример 2 · Формула и проценты</span></div>
+   <h3><span class="inline kk">Курс бағасы 24 000 ₸ болды. Алдымен баға 20%-ға көтерілді, кейін жаңа бағадан 20%-ға төмендеді. Соңғы баға бастапқы бағамен тең бола ма?</span><span class="inline ru">Курс стоил 24 000 ₸. Сначала цену повысили на 20%, затем новую цену снизили на 20%. Станет ли итоговая цена равна исходной?</span></h3>
+   <div class="answer">
+    <b><span class="inline kk">Шешу жолы:</span><span class="inline ru">Решение:</span></b><br>
+    <span class="inline kk">1) 24 000 × 1,20 = 28 800 ₸.<br>2) Енді 20% бастапқы 24 000-нан емес, 28 800-ден алынады.<br>3) 28 800 × 0,80 = 23 040 ₸.<br><b>Жауап: жоқ. Соңғы баға – 23 040 ₸.</b></span>
+    <span class="inline ru">1) 24 000 × 1,20 = 28 800 ₸.<br>2) Теперь 20% считается уже не от 24 000, а от 28 800.<br>3) 28 800 × 0,80 = 23 040 ₸.<br><b>Ответ: нет. Итоговая цена — 23 040 ₸.</b></span>
+   </div>
+   <div class="note"><span class="inline kk">Тұзақ: +20% және −20% бірін-бірі жоймайды, өйткені пайыздар әртүрлі базадан есептеледі.</span><span class="inline ru">Ловушка: +20% и −20% не компенсируют друг друга, потому что проценты считаются от разных баз.</span></div>
+  </div>
+
+  <div class="example reveal">
+   <div class="example-label"><span class="inline kk">Мысал 3 · Геометрия</span><span class="inline ru">Пример 3 · Геометрия</span></div>
+   <h3><span class="inline kk">Тік төртбұрыштың периметрі 54 см. Ұзындығы енінен 5 см артық. Оның ауданын табыңыз.</span><span class="inline ru">Периметр прямоугольника равен 54 см. Длина на 5 см больше ширины. Найдите его площадь.</span></h3>
+   <div class="answer">
+    <b><span class="inline kk">Шешу жолы:</span><span class="inline ru">Решение:</span></b><br>
+    <span class="inline kk">1) Енін x десек, ұзындығы x + 5.<br>2) P = 2(a + b), сондықтан 2[x + (x + 5)] = 54.<br>3) 4x + 10 = 54 → 4x = 44 → x = 11.<br>4) Ені 11 см, ұзындығы 16 см.<br>5) S = 11 × 16 = 176 см².<br><b>Жауап: 176 см².</b></span>
+    <span class="inline ru">1) Пусть ширина равна x, тогда длина x + 5.<br>2) P = 2(a + b), поэтому 2[x + (x + 5)] = 54.<br>3) 4x + 10 = 54 → 4x = 44 → x = 11.<br>4) Ширина 11 см, длина 16 см.<br>5) S = 11 × 16 = 176 см².<br><b>Ответ: 176 см².</b></span>
+   </div>
+   <div class="note"><span class="inline kk">Тұзақ: периметр берілгенде бірден аудан формуласын қолдана алмаймыз. Алдымен қабырғаларды табу керек.</span><span class="inline ru">Ловушка: по одному периметру нельзя сразу вычислить площадь. Сначала нужно найти стороны.</span></div>
+  </div>
+
+  <div class="midcta reveal">
+   <div><h3><span class="inline kk">Шешу жолы түсінікті ме? Енді өзіңді тексер.</span><span class="inline ru">Понятен ход решения? Теперь проверь себя.</span></h3><p><span class="inline kk">MAGIST платформасында әртүрлі форматтағы пробный тесттер арқылы практика жаса.</span><span class="inline ru">Практикуйся на пробных тестах разных форматов на платформе MAGIST.</span></p></div>
+   <a class="btn" href="https://www.magist.online/"><span class="inline kk">Пробный тест →</span><span class="inline ru">Пройти пробный →</span></a>
+  </div>
+ </div>
+</section>
+<section class="section">
+ <div class="wrap">
+  <div class="kicker">04 · CHECK</div>
+  <h2><span class="inline kk">Сыни ойлауға дайындалғанда мынаны тексер</span><span class="inline ru">Проверь свою подготовку</span></h2>
+  <div class="checklist">
+   <div class="check reveal"><div class="tick">✓</div><div><b><span class="inline kk">Есеп түрін танимын ба?</span><span class="inline ru">Узнаю ли я тип задачи?</span></b><span><span class="inline kk">Шартты оқып, қай тәсіл керек екенін түсіну.</span><span class="inline ru">Понимать по условию, какой подход нужен.</span></span></div></div>
+   <div class="check reveal"><div class="tick">✓</div><div><b><span class="inline kk">Негізгі формулаларды түсінемін бе?</span><span class="inline ru">Понимаю ли я базовые формулы?</span></b><span><span class="inline kk">Жаттап қана қоймай, қай кезде қолданылатынын білу.</span><span class="inline ru">Не просто помнить, а знать, когда их применять.</span></span></div></div>
+   <div class="check reveal"><div class="tick">✓</div><div><b><span class="inline kk">Артық ақпаратты ажырата аламын ба?</span><span class="inline ru">Умею ли я отсекать лишние данные?</span></b><span><span class="inline kk">Сұраққа қатысы жоқ ақпаратқа уақыт жоғалтпау.</span><span class="inline ru">Не тратить время на данные, не связанные с вопросом.</span></span></div></div>
+   <div class="check reveal"><div class="tick">✓</div><div><b><span class="inline kk">Пробный тестпен жаттығамын ба?</span><span class="inline ru">Практикуюсь ли я на пробниках?</span></b><span><span class="inline kk">Теорияны уақытпен және нақты тест форматымен бекіту.</span><span class="inline ru">Закреплять теорию с таймингом и в формате теста.</span></span></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="wrap">
+ <div class="cta reveal">
+  <div class="small">MAGIST · PRACTICE</div>
+  <h2><span class="inline kk">Гайдты оқыдың. Енді нәтижеңді тестте тексер.</span><span class="inline ru">Гайд прочитан. Теперь проверь себя на тесте.</span></h2>
+  <p class="lang kk">Теорияны түсіну – бірінші қадам. MAGIST платформасындағы пробный тесттер арқылы КТ форматына үйреніп, қай жерде қате жіберетініңді практикада көр.</p>
+  <p class="lang ru">Понять принцип – первый шаг. Пробные тесты на платформе MAGIST помогут привыкнуть к формату КТ и увидеть свои ошибки уже на практике.</p>
+  <a class="btn" href="https://www.magist.online/"><span class="inline kk">MAGIST-те пробный тестті бастау →</span><span class="inline ru">Начать пробный тест в MAGIST →</span></a>
+  <div class="micro">magist.online</div>
+ </div>
+</section>
+</main>
+
+<footer class="footer">MAGIST · <span class="inline kk">КТ-ға дайындық платформасы</span><span class="inline ru">платформа подготовки к КТ</span></footer>
+
+<script>
+function setLang(l){
+ document.body.className=l; document.documentElement.lang=l;
+ document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===l));
+ localStorage.setItem('magistGuideLang',l);
+}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
+setLang(localStorage.getItem('magistGuideLang')||'kk');
+
+const io=new IntersectionObserver(entries=>{
+ entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})
+},{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
